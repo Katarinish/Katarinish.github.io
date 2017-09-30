@@ -1,5 +1,5 @@
 # Ковылина Екатерина
-Progress List
+## Progress List
 
 [Урок 2](https://github.com/Katarinish/Katarinish.github.io/tree/master/%D0%A3%D1%80%D0%BE%D0%BA%202/img "Вырезка файлов из макета") - Вырезка файлов из макета
 
