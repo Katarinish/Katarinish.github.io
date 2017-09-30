@@ -5,7 +5,7 @@ Progress List
 
 [Урок 3](https://github.com/Katarinish/Katarinish.github.io/tree/master/%D0%A3%D1%80%D0%BE%D0%BA%203 "Настройка рабочего пространства.") - Настройка рабочего пространства
 
-[Урок 4](https://github.com/Katarinish/Katarinish.github.io/tree/master/%D0%A3%D1%80%D0%BE%D0%BA%204 "Знакомство с основами HTML") Знакомство с основами HTML
+[Урок 4](https://github.com/Katarinish/Katarinish.github.io/tree/master/%D0%A3%D1%80%D0%BE%D0%BA%204 "Знакомство с основами HTML") -  Знакомство с основами HTML
 
 [Урок 6](https://katarinish.github.io/%D0%A3%D1%80%D0%BE%D0%BA%206/fixed-nav-bar/src/index.html "Позиционирование в CSS - фиксированная шапка") - Позиционирование в CSS - фиксированная шапка
 
