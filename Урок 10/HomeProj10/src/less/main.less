@@ -1,0 +1,168 @@
+.font-family(@font:'museo_bold', @type:sans-serif){
+	font-family: @font, @type;
+}
+
+.font-sz(@fz: 10px){
+	font-size:@fz;
+}
+.txt-align(@ta: center){
+	text-align: @ta;
+}
+.txt-transform(@tt: uppercase){
+	text-transform: @tt;
+}
+.display(@type: inline-block){
+	display: @type;
+}
+.w-and-h(@width:1rem, @height:1rem){
+	width:@width;
+	height:@height;
+}
+.color(@color: black){
+	color:@color;
+}
+.margin-btt(@bottom:1rem){
+	margin-bottom: @bottom;
+}
+
+.pos-and-width(@pos:relative, @width:100%){
+	position: @pos;
+	width: @width;
+}	
+.border(@weight:2px, @type:solid, @color:#d0d0d0){
+	border: @weight @type @color;
+}
+
+.diff-trans(@time:0.3s) {
+	-webkit-transition: @time;
+  -moz-transition: @time;
+  -ms-transitiosn: @time;
+  transition: @time;
+}
+
+@rem-size: 1rem;
+@black-clr: #1b1b1b;
+@darkolive-clr:  #5ba2a9;
+@lightgrey: #d0d0d0;
+@darkgrey:#454545;
+
+html {
+	.font-sz();
+}
+
+body {
+  .font-family('museo_reg',)
+}
+
+section {
+  padding: @rem-size+3 0 @rem-size+7;
+}
+
+a {
+
+	&:hover,	&:focus, &:active {
+		text-decoration: none;
+	}
+
+}
+button, input, a, textarea {
+
+	&:focus {
+		outline: none;
+	}
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+}
+
+.feedback-forms-all {
+  padding: @rem-size+5 0 @rem-size+8 0;
+}
+
+.section-title {
+  .margin-btt(6rem);
+  .txt-align();
+  .txt-transform();
+  .font-family();
+  .font-sz(3rem);
+  .color(@darkolive-clr);
+
+  .upper-icon-wrapper {
+
+  		::before, ::after {
+  			content: '';
+			.display();
+			.w-and-h(1.5rem, 0.1rem);
+			.margin-btt(15px);
+			background-color: @darkolive-clr;
+  		} 
+		
+		.upper-icon {
+			.margin-btt(1.5rem);
+			.w-and-h(2rem, 2rem);
+		}
+  }
+}
+
+.feedback-form {
+	
+	&-statement {
+		padding: @rem-size+5 0 0;
+	}
+
+	&-title {
+		.margin-btt(6rem);
+		.txt-align();
+
+		h3 {
+		  .margin-btt(1.2rem);
+		  .font-family();
+		  .font-sz(2.5rem);
+		  .color(@black-clr);
+		}
+
+		p {
+			.font-sz(1.8rem);
+		}
+
+	}
+
+	&-input {
+		.pos-and-width();
+		padding: 1.4rem 4.5rem 1.4rem 1.4rem;
+		.border();
+		opacity: .5;
+		.color (@darkgrey);
+		.diff-trans();
+
+		::-webkit-input-placeholder,::-moz-placeholder{
+			 .color(#515151);
+          .font-sz( 1.5rem);
+		}
+	}
+
+	.input-user, .input-phone {
+		  background: url(../img/shared/feedback/telephone-icon.svg) right 1.5rem center no-repeat;
+  		  background-size: 2rem;
+	}
+
+	&-btn {
+		min-width: 100%;
+	   padding: 1.2rem 0;
+	   background-color: @darkolive-clr;
+	   .txt-transform();
+	   .border(none,none,);
+	   .color(#ffffff);
+
+	   :hover {
+	   	background-color: #488389;
+  			border-radius: 10px;
+	   }
+
+	}
+
+	.title-feedback, .description-feedback {
+		.display(block);
+	}
+}

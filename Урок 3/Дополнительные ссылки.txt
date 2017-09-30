@@ -1,0 +1,20 @@
+
+Команды для командной строки Window 10
+
+https://wincomm.ru/cmd-command.html
+
+Как устранить ошибку при установке на Mac:
+
+https://docs.npmjs.com/getting-started/fixing-npm-permissions
+
+Лучшие плагины для Sublime Text
+
+https://habrahabr.ru/post/235901/
+
+Sublime Text для фронтэнд-разработчика
+
+https://habrahabr.ru/post/244681/
+
+Живая перезагрузка
+
+https://webref.ru/dev/automate-with-gulp/live-reloading

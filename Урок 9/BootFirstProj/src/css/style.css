@@ -1,0 +1,74 @@
+body {
+	font-family: Tahoma, sans-serif;
+	line-height: 1.6;
+	color: #333333;
+}
+
+
+section, .intro {
+	margin-top: 110px;
+}
+
+.main-header h1,h2, h3 {
+	line-height: 1.6;
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.main-header h1 span {
+	display: block;
+
+	font-weight: 100;
+}
+
+.check-middle {
+	vertical-align: middle;
+	
+}
+
+.video {
+	margin-bottom: 50px;
+}
+
+.myform {
+	padding: 10px 40px 30px 40px ;
+
+	border: 5px solid #2727d9;
+}
+
+.myform h3 {
+	font-size: 20px;
+}
+
+.myform form input {
+	margin: 20px auto;
+}
+
+.mybtn {
+	background-color: #2727d9;
+}
+ .features {
+ 	padding: 80px 0 50px 0;
+ }
+
+ .features .item {
+ 	height: 160px;
+ 	margin-bottom: 50px;
+ }
+
+ .features .item p {
+ 	margin: 20px auto;
+	width: 120px;
+
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.clients {
+	margin:100px auto;
+}
+
+.pictures {
+	margin-bottom:50px;
+}
+

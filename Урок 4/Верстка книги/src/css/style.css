@@ -1,0 +1,86 @@
+* {
+	box-sizing: border-box;
+}
+
+.cover {
+	background-image: url(https://filmix.me/uploads/frames/117526/f238556-ono-2017_original.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	min-height: 550px;
+	padding-top: 100px;
+	margin-bottom: 20px;
+}
+
+.cover .book-name {
+	background-color: rgba(133, 140, 133, 0.4);
+
+	padding: 20px;
+
+}
+
+h1 {
+	font-size: 100px;
+	margin: 30px;
+}
+
+.cover .book-name h2 {
+	font-size: 40px;
+}
+
+.inline-block {
+	display:inline-block;
+}
+
+.info {
+	width: 45%;
+	font-size: 25px;
+}
+
+.cover-pic {
+	width: 50%;
+
+	text-align: right;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+.centered {
+	text-align: center;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+a {
+	text-decoration: none;
+	color: #690d0d;
+}
+
+.solid-border {
+	border: 3px solid black;
+}
+
+.content-table {
+	margin-left: 37%;
+	padding: 0 100px 0 100px;
+}
+
+.entree-phrase {
+	width: 70%;
+}
+
+#main-phrase {
+	text-align: right;
+}
+
+.underline {
+	text-decoration: underline;
+}
