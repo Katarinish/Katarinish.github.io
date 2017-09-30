@@ -1,2 +1,2 @@
-# Katarinish.github.io
+# Ковылина Екатерина
 Progress List
