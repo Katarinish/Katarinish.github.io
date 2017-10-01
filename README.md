@@ -21,6 +21,6 @@
 
 [Урок 12](https://github.com/Katarinish/Katarinish.github.io "Привет Github!") - Привет Github!
 
-[Урок 13](адрес "Coming soon!") 
+[Урок 13](https://katarinish.github.io/%D0%A3%D1%80%D0%BE%D0%BA%2013/HomeProj13/src/index.html) - Перфект PixelPerfect
 
 
