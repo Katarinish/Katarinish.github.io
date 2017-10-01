@@ -1,0 +1,74 @@
+body {
+  background: url(../img/bg.jpg) repeat;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+}
+#form-section {
+  display: block;
+  margin: 0 auto;
+  height: 570px;
+  width: 570px;
+  border: 1px solid #cfdede;
+}
+#form-section .form {
+  position: relative;
+  display: block;
+  margin: 99px auto;
+  width: 320px;
+  height: 370px;
+  border: 1px solid #cfdede;
+  background-color: #fbfdfd;
+}
+#form-section .form .ribbon {
+  position: absolute;
+  left: 29px;
+  top: -4px;
+  padding-top: 5px;
+  width: 149px;
+  height: 25px;
+  background-color: #01b3b3;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+#form-section .form form {
+  padding-top: 40px;
+  padding-left: 28px;
+}
+#form-section .form form h4 {
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+}
+#form-section .form form h4 .sup {
+  color: #01b3b3;
+  vertical-align: super;
+}
+#form-section .form form input {
+  background: url(../img/bg.jpg) repeat;
+  display: block;
+  margin-bottom: 15px;
+  width: 262px;
+  height: 32px;
+  border: 1px solid #cfdede;
+  border-radius: 0;
+}
+#form-section .form form button {
+  display: block;
+  width: 260px;
+  height: 45px;
+  background-color: #01b3b3;
+  margin-top: 34px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+}
+::-webkit-input-placeholder {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 100;
+  font-style: italic;
+}
