@@ -1,0 +1,51 @@
+/* Colors */
+@btn-color: #fab102;
+@icon-color: #45b713;
+@text-color: #1a1820;
+@danger-color: #ff0000;
+@link-color: #6ba253;
+@white: #fff;
+
+/* Basic settings */
+html{
+	font-size: 10px;
+}
+.mybtn {
+	background-color: @btn-color;
+	color: @white;
+	padding: 1.5rem 3rem;
+	border-radius: 8px;
+	text-transform: uppercase;
+	border: none;
+}
+
+/* Typography */
+section {
+	padding: 10rem 0;
+}
+
+/* Main */
+main {
+	padding: 4rem 0;
+}
+.header{
+	height: 7rem;
+}
+.phone-num a {
+	display: inline-block;
+	height: 7rem;
+	
+	font-size: 2rem;
+	font-weight: 700;
+	color: @text-color;
+	line-height: 7rem;
+}
+.wrap {
+	width: 100%;
+	display: table;
+	height: 7rem;
+	&-block {
+		display: table-cell;
+		vertical-align: middle;
+	}
+}
