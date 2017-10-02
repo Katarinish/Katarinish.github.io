@@ -21,8 +21,8 @@
 
 [Урок 12](https://github.com/Katarinish/Katarinish.github.io "Привет Github!") - Привет Github!
 
-[Урок 13](https://katarinish.github.io/%D0%A3%D1%80%D0%BE%D0%BA%2013/HomeProj13/src/index.html) - Перфект PixelPerfect
+[Урок 13.1](https://katarinish.github.io/%D0%A3%D1%80%D0%BE%D0%BA%2013/HomeProj13/src/index.html) - Перфект PixelPerfect
 
-[Урок 13](https://katarinish.github.io/%D0%A3%D1%80%D0%BE%D0%BA%2014/HomeProj14/src/index.html) - Верстка шапки сайта
+[Урок 13.2](https://katarinish.github.io/%D0%A3%D1%80%D0%BE%D0%BA%2014/HomeProj14/src/index.html) - Верстка шапки сайта
 
-
+[Урок 14.1](https://katarinish.github.io/fonts-viewer/index.html) - Юху, подключаем классные шрифты!
