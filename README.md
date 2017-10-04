@@ -26,3 +26,5 @@
 [Урок 13.2](https://katarinish.github.io/%D0%A3%D1%80%D0%BE%D0%BA%2014/HomeProj14/src/index.html) - Верстка шапки сайта
 
 [Урок 14.1](https://katarinish.github.io/fonts-viewer/index.html) - Юху, подключаем классные шрифты!
+
+[Урок 14.2](https://katarinish.github.io/%D0%A3%D1%80%D0%BE%D0%BA%2014/HomeProj14/src/index.html) - Практика - верстаем главный экран
