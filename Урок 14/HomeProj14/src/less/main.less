@@ -1,3 +1,28 @@
+ /* Fonts settings */
+ @font-face {
+	font-family: 'ProximaNova_Rg';
+	src: url('../fonts/ProximaNova-Regular.eot');
+	src: url('../fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/ProximaNova-Regular.woff') format('woff'),
+		url('../fonts/ProximaNova-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'ProximaNova_Bold';
+	src: url('../fonts/ProximaNova-Bold.eot');
+	src: url('../fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/ProximaNova-Bold.woff') format('woff'),
+		url('../fonts/ProximaNova-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+.font-family(@font: 'ProximaNova_Rg') {
+	font-family:  @font , sans-serif;
+}
+
 /* Colors */
 @btn-color: #fab102;
 @icon-color: #45b713;
@@ -10,35 +35,45 @@
 html{
 	font-size: 10px;
 }
+
+body {
+	.font-family();
+}
+
 .mybtn {
-	background-color: @btn-color;
-	color: @white;
+
 	padding: 1.5rem 3rem;
+
 	border-radius: 8px;
 	text-transform: uppercase;
 	border: none;
+	
+	font-size: 1.2rem;
+	background-color: @btn-color;
+	color: @white;
 }
 
 /* Typography */
+
 section {
 	padding: 10rem 0;
 }
 
 /* Main */
-main {
-	padding: 4rem 0;
-}
-.header{
+.header {
 	height: 7rem;
 }
+
 .phone-num a {
 	display: inline-block;
 	height: 7rem;
+	line-height: 7rem;
+
+	.font-family("ProximaNova_Bold");
 	
 	font-size: 2rem;
 	font-weight: 700;
 	color: @text-color;
-	line-height: 7rem;
 }
 .wrap {
 	width: 100%;
@@ -47,5 +82,122 @@ main {
 	&-block {
 		display: table-cell;
 		vertical-align: middle;
+		text-align: right;
+	}
+}
+/* Оформление контента главного экрана */
+.main {
+	padding: 4rem 0 6rem;
+
+	background: #fff url(../img/main_bg.jpg) center center no-repeat;
+	background-size: cover;
+
+	&-cont {
+		padding-top: 8rem;
+
+		.main-title {
+
+			h1 {
+				margin: 0 0 5rem  0;
+
+				.font-family('ProximaNova_Bold');
+				font-size: 4rem;
+				text-transform: uppercase;
+				line-height: 1.45;
+			}
+
+			p {
+				font-size: 2.4rem;
+				margin-bottom: 6rem;
+			}
+
+			span {
+				margin-bottom: 4rem;
+				display: inline-block;
+				padding: 2rem 4rem;
+
+				background-color: @icon-color;
+				color: @white;
+				text-align: center;
+
+				font-size: 1.8rem;
+				width: 22.5rem;
+				height: 10.5rem;
+
+				strong {
+					font-size: 3rem;
+				}
+
+			}
+
+			h3 {
+				margin: 0;
+
+				.font-family('ProximaNova_Bold');
+				font-size: 2.2rem;
+				text-transform: uppercase;
+			}
+		}
+
+		// Оформление формы 
+		.main-form {
+
+			padding: 4.5rem 5rem;
+			
+			background-color: @white;
+
+			text-align: center;
+			// заголовок формы
+			h3 {
+				margin: 0 0 4.5rem 0;
+				font-size: 1.8rem;
+			}
+			// оформляем инпуты
+			input {
+				display: block;
+				margin: 2rem auto; 
+				width: 255px;
+				height: 55px;
+
+				border: 1px solid #dddddd;
+			}
+
+			//подписи к полям 
+			label {
+				display: inline-block;
+				position: absolute;
+				left: 50%;
+				transform: translateX(-50%) translateY(-50%);
+				padding:0 1rem;
+
+				background-color: @white;
+				font-size: 1.3rem;
+
+			}
+
+			//кнопка отправки заявки
+			button {
+				font-size: 1.6rem;
+				width: 25.7rem;
+				height: 6.5rem;
+				margin-bottom: 2rem;
+			}
+
+			//Доп информация
+			span {
+				font-size: 1.3rem;
+			}
+
+		}
+
+		.disc-text {
+			//оформение текста под формой
+		p {
+			width: 22.2rem;
+			margin: 4rem auto 0;
+			font-size: 1.2rem;
+			text-align: center;
+		}
+		}
 	}
 }
