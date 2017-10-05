@@ -1,0 +1,194 @@
+/* Fonts settings */
+@font-face {
+  font-family: 'ProximaNova_Rg';
+  src: url('../fonts/ProximaNova-Regular.eot');
+  src: url('../fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/ProximaNova-Regular.woff') format('woff'), url('../fonts/ProximaNova-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ProximaNova_Bold';
+  src: url('../fonts/ProximaNova-Bold.eot');
+  src: url('../fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/ProximaNova-Bold.woff') format('woff'), url('../fonts/ProximaNova-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+/* Colors */
+/* Basic settings */
+html {
+  font-size: 10px;
+}
+body {
+  font-family: 'ProximaNova_Rg', sans-serif;
+}
+button:focus,
+input:focus,
+a:focus {
+  outline: none;
+}
+.mybtn {
+  padding: 1.5rem 3rem;
+  border-radius: 8px;
+  text-transform: uppercase;
+  border: none;
+  font-size: 1.2rem;
+  background-color: #fab102;
+  color: #ffffff;
+  transition: all 0.4s;
+}
+.mybtn:hover {
+  cursor: pointer;
+  background-color: #e6a302;
+}
+/* Typography */
+section {
+  padding: 10rem 0;
+}
+/* Main */
+.phone-num {
+  text-align: right;
+}
+.phone-num a {
+  text-align: right;
+  display: inline-block;
+  height: 7rem;
+  line-height: 7rem;
+  font-family: "ProximaNova_Bold", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1a1820;
+}
+a:hover {
+  text-decoration: none;
+  color: #45b713;
+}
+.wrap {
+  width: 100%;
+  display: table;
+  height: 7rem;
+}
+.wrap-block {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: right;
+}
+/* Оформление контента главного экрана */
+.main {
+  padding: 4rem 0 6rem;
+  background: #ffffff url(../img/main_bg.jpg) center center no-repeat;
+  background-size: cover;
+}
+.main-cont {
+  padding-top: 8rem;
+}
+.main-cont .main-title h1 {
+  margin: -1.5rem 0 5rem 0;
+  font-family: 'ProximaNova_Bold', sans-serif;
+  font-size: 4rem;
+  text-transform: uppercase;
+  line-height: 1.45;
+}
+.main-cont .main-title p {
+  font-size: 2.4rem;
+  margin-bottom: 6rem;
+}
+.main-cont .main-title span {
+  margin-bottom: 4rem;
+  display: inline-block;
+  padding: 2rem 4rem;
+  background-color: #45b713;
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.8rem;
+  width: 22.5rem;
+  height: 10.5rem;
+}
+.main-cont .main-title span strong {
+  font-size: 3rem;
+}
+.main-cont .main-title h3 {
+  margin: 0;
+  font-family: 'ProximaNova_Bold', sans-serif;
+  font-size: 2.2rem;
+  text-transform: uppercase;
+}
+.main-cont .main-form {
+  padding: 4.5rem 5rem;
+  background-color: #ffffff;
+  text-align: center;
+}
+.main-cont .main-form h3 {
+  margin: 0 0 4.5rem 0;
+  font-size: 1.8rem;
+}
+.main-cont .main-form input {
+  display: block;
+  margin: 2rem auto;
+  width: 100%;
+  height: 55px;
+  border: 1px solid #dddddd;
+}
+.main-cont .main-form label {
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  padding: 0 1rem;
+  background-color: #ffffff;
+  font-size: 1.3rem;
+}
+.main-cont .main-form button {
+  font-size: 1.6rem;
+  width: 100%;
+  height: 6.5rem;
+  margin-bottom: 2rem;
+}
+.main-cont .main-form span {
+  font-size: 1.3rem;
+}
+.main-cont .disc-text p {
+  width: 22.2rem;
+  margin: 4rem auto 0;
+  font-size: 1.2rem;
+  text-align: center;
+}
+@media (max-width: 991px) {
+  .main {
+    background-position: top right;
+  }
+  .phone-num {
+    text-align: center;
+  }
+  .main-cont {
+    text-align: center;
+    padding-top: 5rem;
+  }
+  .main-cont .main-title {
+    margin-bottom: 5rem;
+  }
+  .main-cont .main-title h1 {
+    margin: 0 0 3rem;
+  }
+}
+@media (max-width: 762px) {
+  .header {
+    text-align: center;
+  }
+  .header .wrap-block {
+    text-align: center;
+  }
+  .main-cont .main-title h1 {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 370px) {
+  .main-cont .main-title {
+    margin-top: 10px;
+  }
+  .main-cont .main-title h1 {
+    font-size: 2rem;
+  }
+  .main-cont .main-title p {
+    margin-bottom: 2rem;
+  }
+}
