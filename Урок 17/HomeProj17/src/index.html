@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Слайдер</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/main.css">
+	<script src="https://use.fontawesome.com/e3ec10677c.js"></script>
+
+</head>
+<body>
+	<div class="modal-win">
+		<button class="btn mybtn" data-toggle="modal" data-target="#Remove"> Delete files</button>
+	</div>
+
+
+	<!-- Модальное окно от Bootstrap -->
+
+	<!-- Отвечает за затемнение фона и появление самого модального окна -->
+	<!-- Fade - режим анимации появления -->
+	<div class="modal fade" id="Remove">
+
+		<!-- Само белое модальное окошко -->
+	  <div class="modal-dialog">
+	  	 <!-- Содержимое окна -->
+	    <div class="modal-content">
+
+	    	<!-- Шапка модального окна -->
+	     
+
+	      <!-- Тело модального окна -->
+	      <div class="modal-body window-body text-center">
+
+	      	<!-- Кнопка закрыть -->
+	        <button type="button" class="close-btn" data-dismiss="modal" aria-label="Close"><i class="fa fa-times fa-2x" aria-hidden="true"></i></button>
+	        <div class="	del-icon ">
+	        		<img src="img/check.png" alt="">
+	        </div>
+	        <h2 class="modal-hdr"><strong>Awesome!</strong><br>
+	        You are ready to delete all files.</h2>
+	      </div>
+
+	      <!-- Футер модального окна -->
+	      <div class="modal-footer window-footer ">
+	        <button type="button" class="mybtn  btn" data-dismiss="modal">Return</button>
+	        <button type="button" class="mybtn btn ">Submit</button>
+	      </div>
+	    </div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+	
+		
+
+	<!-- Подключение библиотеки JQuerry -->
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+	<!-- Подключение Java Script от Bootstrap -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
