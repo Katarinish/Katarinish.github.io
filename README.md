@@ -38,3 +38,5 @@
 [Урок 16.2](https://katarinish.github.io/%D0%A3%D1%80%D0%BE%D0%BA%2016%20%D0%9F%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B0/HomeProj16Practice/src/index.html) - Практика - блок со слайдером на разных размерах экрана
 
 [Урок 17.1](https://katarinish.github.io/%D0%A3%D1%80%D0%BE%D0%BA%2017/HomeProj17/src/index.html) - Модальные оконца
+
+[Урок 17.2](https://katarinish.github.io/%D0%A3%D1%80%D0%BE%D0%BA%2017%20%D0%9F%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B0/HomeProj17Practice/src/index.html?#) - Практика - создаем свое собственное всплывающее окно
