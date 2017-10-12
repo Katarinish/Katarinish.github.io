@@ -1,0 +1,89 @@
+/* Font Family */
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700&subset=cyrillic');
+
+body {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+/* Colors */
+@basic-color: #0bbaf0;
+
+/* Customize */
+
+body {
+	font-family: 'Ubuntu', sans-serif;
+
+	background: url(../img/bgc.png) fixed;
+	background-size: cover;
+
+	font-size: 10px;
+}
+
+.main {
+	&-header-content {
+		margin-top: 8rem;
+		margin-bottom: 5rem;
+
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+	&-header {
+		color: @basic-color;
+		font-weight: bold;
+		font-size: 3.5rem;
+	}
+
+	&-subheader {
+		color: @basic-color;
+		font-size: 2.5rem;
+	}
+
+	&-accordion {
+		margin: 0 auto;
+		width: 86.5rem;
+
+		text-align: center;
+
+		.main-accordion-panel {
+			border: none;
+			border-radius: 0;
+			background-color: transparent;
+			box-shadow: none;
+
+			.main-accordion-heading {
+				background-color: @basic-color;
+				padding: 1rem 0;
+
+				.accordion-heading-link {
+					color:white;
+					font-size: 2.3rem;
+				}
+			}
+			
+			.main-accordion-collapse {
+				background-color: transparent;
+				border: none;
+
+
+				.main-accordion-panel-body{
+					margin: 0 auto;
+					width: 96%;
+
+					background-color: #fff;
+
+					border-left: 5px solid #dcdcdc;
+					border-right: 5px solid #dcdcdc;
+					border-bottom: 5px solid #dcdcdc;
+					border-bottom-left-radius: 8px;
+					border-bottom-right-radius: 8px;
+
+					font-size: 2.2rem;
+					color: #535353;
+				}
+			}
+
+		}
+	}
+}
+
