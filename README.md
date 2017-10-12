@@ -42,3 +42,5 @@
 [Урок 17.2](https://katarinish.github.io/%D0%A3%D1%80%D0%BE%D0%BA%2017%20%D0%9F%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B0/HomeProj17Practice/src/index.html?#) - Практика - создаем свое собственное всплывающее окно
 
 [Урок 18.1](https://katarinish.github.io/%D0%A3%D1%80%D0%BE%D0%BA%2018.1/HomeProj18/src/index.html) - Аккордеон
+
+[Урок 18.2](https://katarinish.github.io/%D0%A3%D1%80%D0%BE%D0%BA%2018.2/HomeProj18/src/index.html) - Крутые табы производства бутстрапа с моими поправочками
