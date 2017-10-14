@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+body {
+  font-family: 'Abel', sans-serif;
+  background: url(../img/bgc.jpg) no-repeat;
+  background-size: cover;
+  font-size: 10px;
+}
+.info-tab {
+  width: 630px;
+  margin: 0 auto;
+}
+.form-content {
+  background-color: #00a6db;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  color: white;
+  cursor: default;
+  background-color: #00a6db;
+  border: 1px solid #00a6db;
+  border-bottom-color: transparent;
+}
+.nav-tabs > li {
+  width: 15rem;
+}
+.nav-tabs > li > a {
+  text-align: center;
+  margin-right: 2px;
+  line-height: 1.42857143;
+  border: 1px solid transparent;
+  border-radius: 4px 4px 0 0;
+  background-color: white;
+  color: #080707;
+  font-size: 2.4rem;
+  font-weight: 400;
+}
+.info-tab {
+  margin-top: 5rem;
+}
+.form-content {
+  padding: 2.5rem;
+}
+.form-content .registration-form {
+  padding: 7rem 4.5rem 3rem;
+  position: relative;
+  background-color: #080707;
+}
+.form-content .registration-form input {
+  display: inline-block;
+  width: 100%;
+  height: 6rem;
+  margin-bottom: 2rem;
+  font-size: 2.4rem;
+  color: white;
+  background: url(../img/inputbgc.jpg) center repeat;
+  background-size: cover;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  padding: 0 2rem;
+}
+.form-content .advices {
+  margin-top: 5rem;
+}
+.form-content .advices h2 {
+  font-size: 2rem;
+  color: red;
+}
+.form-content .mybtn {
+  position: absolute;
+  bottom: 2rem;
+  right: -6rem;
+  padding: 1rem 3rem;
+  width: 128px;
+  font-size: 2.4rem;
+  color: white;
+  background: radial-gradient(circle farthest-side at 50%, #cf2303 0%, #7f0501 100%);
+}
