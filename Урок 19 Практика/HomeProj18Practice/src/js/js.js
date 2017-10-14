@@ -47,8 +47,8 @@ $(document).ready(function(){
     infinite: true,
 
      
-    prevArrow:'<button class=" feed-arrow feed-l-arrow"><img src="../img/feedback/l-ar.svg" alt="" /></button>',
-    nextArrow:'<button class="feed-arrow feed-r-arrow"><img src="../img/feedback/r-ar.svg" alt="" /></button>',
+    prevArrow:'<button class=" feed-arrow feed-l-arrow"><img src="../img/feedback/l-ar.png" alt="" /></button>',
+    nextArrow:'<button class="feed-arrow feed-r-arrow"><img src="../img/feedback/r-ar.png" alt="" /></button>',
    });
 
 });
