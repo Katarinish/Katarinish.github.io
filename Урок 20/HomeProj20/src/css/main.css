@@ -1,0 +1,84 @@
+
+.video-bg {
+  min-height: 100vh;
+}
+
+.header {
+  min-height: 20rem;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(34,34,34, 0.7);
+
+}
+
+.header::before {
+  display: inline-block;
+  content: '';
+  position: absolute;
+  width: 9rem;
+  height: 13rem;
+  top: 1.5rem;
+  left: 1rem;
+  border-top:4px solid white;
+  border-left:4px solid white;
+}
+
+.header::after {
+  display: inline-block;
+  content: '';
+  position: absolute;
+  width: 9rem;
+  height: 13rem;
+  bottom: 1.5rem;
+  right: 1rem;
+  border-bottom:4px solid white;
+  border-right:4px solid white;
+}
+
+@keyframes showup {
+ 
+  100% { opacity: 1; }
+}
+
+.text {
+  opacity: 0;
+  position: absolute;
+  font-size: 5rem;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  animation-name: showup;
+  animation-duration: 0.5s;
+}
+
+#box1 {
+  animation-delay: 0.5s;
+}
+#box2 {
+  animation-delay: 1s;
+}
+
+#box3 {
+  animation-delay: 1.5s;
+}
+
+#box4 {
+  animation-delay: 2s;
+}
+
+#box5 {
+  animation-delay: 2.5s;
+}
+
+#box6 {
+  animation-delay: 3.5s;
+  animation-fill-mode: forwards;
+}
+
+
+
