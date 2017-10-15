@@ -46,3 +46,7 @@
 [Урок 18.2](https://katarinish.github.io/%D0%A3%D1%80%D0%BE%D0%BA%2018.2/HomeProj18/src/index.html) - Крутые табы производства бутстрапа с моими поправочками
 
 [Урок 18.3](https://katarinish.github.io/%D0%A3%D1%80%D0%BE%D0%BA%2018%20%D0%9F%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B0/HomeProj18Practice/src/index.html) - Практика - верстаем секцию с ценами
+
+[Урок 19.1](https://katarinish.github.io/%D0%A3%D1%80%D0%BE%D0%BA%2020/HomeProj20/src/index.html) - Видео-фон + чуток анимации
+
+[Урок 19.2](https://katarinish.github.io/%D0%A3%D1%80%D0%BE%D0%BA%2020%20%D0%9F%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B0/HomeProj20Practice/src/index.html) - Практика - адаптив секции с отзывами
