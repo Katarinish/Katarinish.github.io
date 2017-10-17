@@ -1,0 +1,50 @@
+.content{
+  position: absolute;
+  display: block;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+}
+
+.map-cont{
+  position: relative;
+}
+
+.map-box {
+  position: absolute;
+  top: 0;
+  left: 30%;
+  width: 300px;
+  height: 100%;
+  background-color: #c60b0b;
+  color: white; 
+  text-align: center;
+}
+
+.map-box-cont {
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+.map-box-cont  p {
+  margin-top: 30px;
+
+}
+
+.myrow {
+  vertical-align: middle;
+}
+
+.f-item {
+  display: inline-block;
+  float: none;
+  vertical-align: middle;
+}
+
+.f-item>p {
+  margin: 0;
+}
