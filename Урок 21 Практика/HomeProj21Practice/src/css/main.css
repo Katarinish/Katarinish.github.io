@@ -503,6 +503,21 @@ a:hover {
     min-height: 12rem;
   }
 }
+
+@media (max-width: 820px) {
+	.feed-l-arrow {
+
+		left: 0;
+		z-index:10;
+	}
+
+	.feed-r-arrow {
+	
+		right:0;
+		z-index:10;
+	}
+}
+
 @media (max-width: 390px) {
   .main-cont .main-title {
     margin-top: 10px;
